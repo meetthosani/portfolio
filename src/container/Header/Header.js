@@ -13,13 +13,7 @@ function Header() {
       },
     },
   };
-  const skills = [
-    images.python,
-    images.javascript,
-    images.node,
-    images.react,
-    images.git,
-  ];
+  const skills = [images.python, images.javascript, images.react];
   return (
     <div className="app__header app__flex">
       <motion.div
@@ -34,10 +28,10 @@ function Header() {
               <p className="p-text">Hello, I'm</p>
               <h1 className="head-text">Meet Thosani</h1>
             </div>
-            <div className="tag-cmp app__flex">
-              <p className="p-text">Software Engineering</p>
-              <p className="p-text">Machine Learning</p>
-            </div>
+          </div>
+          <div className="tag-cmp app__flex">
+            <p className="p-text">Software Engineering</p>
+            <p className="p-text">Machine Learning</p>
           </div>
         </div>
       </motion.div>

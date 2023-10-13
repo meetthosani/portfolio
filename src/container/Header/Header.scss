@@ -77,7 +77,7 @@
     p {
       width: 100%;
       text-transform: uppercase;
-      text-align: right;
+      text-align: center;
     }
   }
 
@@ -119,21 +119,20 @@
   }
 
   // circles with different height & width
-
   div:nth-child(1) {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
 
   div:nth-child(2) {
     margin: 1.75rem;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   div:nth-child(3) {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
   }
 
   @media screen and (min-width: 2000px) {
@@ -164,7 +163,6 @@
     }
   }
 }
-
 .app__header-img {
   flex: 1;
   height: 100%;
