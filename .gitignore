@@ -22,4 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-frontend/src/assets/
+src/assets/
+src/constants/images.js
