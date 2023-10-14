@@ -25,13 +25,17 @@ function Header() {
           <div className="badge-cmp app__flex">
             <span>🤘🏻</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Hello, I'm</p>
               <h1 className="head-text">Meet Thosani</h1>
+              <p className="p-text">Software Engineer | Full Stack Engineer</p>
             </div>
           </div>
           <div className="tag-cmp app__flex">
-            <p className="p-text">Software Engineering</p>
-            <p className="p-text">Machine Learning</p>
+            <p className="p-text">
+              MS in Computer Science, University at Buffalo
+            </p>
+            <p className="p-text">
+              BTech in Computer Engineering, Charotar University
+            </p>
           </div>
         </div>
       </motion.div>
