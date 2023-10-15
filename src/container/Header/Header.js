@@ -1,6 +1,7 @@
 import "./Header.scss";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
+import AppWrap from "../../wrapper";
 
 function Header() {
   const scaleVariants = {
