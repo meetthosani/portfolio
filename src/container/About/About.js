@@ -10,7 +10,7 @@ function About() {
   ];
   return (
     <>
-      <h2 className="head-text" style={{ marginTop: 2 + "rem" }}>
+      <h2 className="head-text">
         <span>Software Engineer</span> <br />
         who loves to solve real world problems using data-driven approaches
       </h2>

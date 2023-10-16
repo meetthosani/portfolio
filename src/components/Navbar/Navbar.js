@@ -15,12 +15,9 @@ function Navbar() {
   ));
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        {/*<img src={images.logo} alt="logo" />*/}
-      </div>
       <ul className="app__navbar-links">{listOfItems}</ul>
       <div className="app__navbar-menu">
-        <HiMenuAlt4 onClick={() => setToggle(true)} />
+        <HiMenuAlt4 onClick={() => setToggle(!toggle)} />
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
