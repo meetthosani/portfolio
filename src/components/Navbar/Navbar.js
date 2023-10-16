@@ -1,12 +1,12 @@
 import "./Navbar.scss";
-import { images } from "../../constants";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+const items = ["home", "about", "work", "skills", "contact"];
 function Navbar() {
   const [toggle, setToggle] = useState(false);
-  const items = ["home", "about", "work", "skills", "contact"];
+
   const listOfItems = items.map((item) => (
     <li className="app__flex p-text" key={`link-${item}`}>
       <div />
@@ -43,3 +43,4 @@ function Navbar() {
   );
 }
 export default Navbar;
+export { items };

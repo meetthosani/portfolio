@@ -7,7 +7,7 @@ function AppWrap(Component, idName, classNames) {
         <div className="app__wrapper app__flex">
           <Component />
         </div>
-        <NavigationDots active={idName} />
+        <NavigationDots activeItem={idName} />
       </div>
     );
   };
